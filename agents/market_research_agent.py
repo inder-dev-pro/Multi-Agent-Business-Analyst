@@ -1,21 +1,8 @@
 import os
-from groq import Groq
 from agents.base_agent import BaseAgent
 from dotenv import load_dotenv
 load_dotenv(r"config\.env")
 OPENAI_API_KEY=os.environ["OPENAI_API_KEY"]
-'''load_dotenv(r"config\.env")
-GROQ_API_KEY=os.environ["GROQ_API_KEY"]
-client = Groq(api_key=GROQ_API_KEY)
-chat_completion = client.chat.completions.create(
-    messages=[
-        {
-            "role": "user",
-            "content": "Explain the importance of fast language models",
-        }
-    ],
-    model="llama-3.3-70b-versatile",
-)'''
 class MarketResearchAgent(BaseAgent):
     def __init__(self, topic):
         super().__init__(

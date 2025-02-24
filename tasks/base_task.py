@@ -5,5 +5,7 @@ class BaseTask(Task):
         super().__init__(
             description=description,
             expected_output=expected_output,
-            agent=agent)
+            agent=agent,
+            topic=topic
+            )
 

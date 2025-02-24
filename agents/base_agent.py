@@ -11,5 +11,5 @@ class BaseAgent(Agent):
         )
 
     
-    def execute(self, startup_data):
+    def execute(self):
         raise NotImplementedError("Each agent must implement its own execute method")
