@@ -1,9 +1,10 @@
 from tasks.base_task import BaseTask
 from agents.market_research_agent import MarketResearchAgent
 class research_task(BaseTask):
-    def __init__(self):
+    def __init__(self, topic):
         super().__init__(
-            description="Analyze the market and provide insights to the team for {topic}",
+            topic=topic,
+            description=f"Analyze the market and provide insights to the team for {topic}",
             expected_output="Market analysis report with key insights and recommendations",
-            agent=MarketResearchAgent()
+            agent=MarketResearchAgent(topic=topic)
         )
