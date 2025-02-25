@@ -1,7 +1,7 @@
 from agents.base_agent import BaseAgent
 
 class IdeaViabilityAgent(BaseAgent):
-    def __init_subclass__(self, idea):
+    def __init__(self, idea):
         super().__init__(
             role="Idea_Viability_Analyst",
             goal=f"To analyze the viability of the idea {idea} and provide insights to the team",
