@@ -1,7 +1,7 @@
 import kagglehub
 import pandas as pd
 # Download latest version
-path = kagglehub.dataset_download("chhinna/crunchbase-data")
+path = kagglehub.dataset_download("yanmaksi/big-startup-secsees-fail-dataset-from-crunchbase")
 
 print("Path to dataset files:", path)
 df=pd.read_csv(path+ r"\acq.csv")
