@@ -9,8 +9,8 @@ idea=input("Enter the idea for viability analysis: ")
 idea_viability=IdeaViabilityAgent(idea=idea)
 idea_viability_task=IdeaViabilityTask(idea=idea)
 market_research=MarketResearchAgent(topic=topic)
-research_task=research_task(topic=topic)
-crew=Crew(agents=[idea_viability], tasks=[idea_viability_task], verbose=True)
+market_research_task=research_task(topic=topic)
+crew=Crew(agents=[market_research,idea_viability], tasks=[market_research_task,idea_viability_task], verbose=True)
 
 result=crew.kickoff()
 
