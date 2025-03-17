@@ -1,2 +1,5 @@
 crewai
 kagglehub
+tensorflow
+category_encoders
+scikit-learn
