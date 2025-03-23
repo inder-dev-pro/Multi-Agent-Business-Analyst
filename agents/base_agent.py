@@ -1,5 +1,6 @@
 from  crewai import Agent
-
+from dotenv import load_dotenv
+load_dotenv(r"config\.env")
 class BaseAgent(Agent):
     def __init__(self, role, goal, backstory, allow_delegation, verbose):
         super().__init__(

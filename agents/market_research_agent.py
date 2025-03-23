@@ -1,7 +1,5 @@
-import os
 from agents.base_agent import BaseAgent
-from dotenv import load_dotenv
-load_dotenv(r"config\.env")
+
 class MarketResearchAgent(BaseAgent):
     def __init__(self, topic):
         super().__init__(
