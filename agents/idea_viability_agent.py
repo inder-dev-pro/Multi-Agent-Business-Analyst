@@ -11,5 +11,5 @@ class IdeaViabilityAgent(BaseAgent):
                         "I am passionate about innovation and identifying opportunities for growth."
                         "I am excited to work with the team and contribute to the success of the project.",
             allow_delegation=False,
-            verbose=True,
+            verbose=True
             )
