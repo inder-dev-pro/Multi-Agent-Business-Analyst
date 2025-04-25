@@ -9,7 +9,7 @@ class BaseAgent(Agent):
             goal=goal,
             backstory=backstory,
             allow_delegation=allow_delegation,
-            verbose=verbose,
+            verbose=verbose
         )
 
     

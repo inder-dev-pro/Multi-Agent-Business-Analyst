@@ -11,5 +11,6 @@ class FundingAdvisorAgent(BaseAgent):
                       f"I am passionate about helping entrepreneurs secure the funding they need to bring their ideas to life."
                       f"I am excited to work with the team and contribute to the success of the project.",
             allow_delegation=False,
-            verbose=True
+            verbose=True,
+            
         )

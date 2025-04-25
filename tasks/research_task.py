@@ -1,6 +1,7 @@
 from tasks.base_task import BaseTask
 from agents.market_research_agent import MarketResearchAgent
-class research_task(BaseTask):
+
+class MarketResearchTask(BaseTask):
     def __init__(self, topic):
         super().__init__(
             topic=topic,
