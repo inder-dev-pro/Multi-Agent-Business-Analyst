@@ -1,2 +1,2 @@
 # Multi-Agent-Business-Analyst
-this system
+CrewAI-MultiAgent is my learning journey through the CrewAI Multi-Agent course. I'll be updating this repo with insights, code, and projects as I explore LLM-based agents, task planning, collaboration, and real-world applications. Follow along for hands-on experiments and implementations! 🚀
